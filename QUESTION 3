@@ -1,0 +1,9 @@
+What is the output of the following code? #include<iostream.h> #include<string.h> 
+void main()
+ {
+ cout<<strlen(“Hello, World.\n”)<<”\n”; 
+}
+
+ANSWER:
+
+The output of the code with strlen("Hello, World.\n") is 14
