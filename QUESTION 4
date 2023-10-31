@@ -1,0 +1,14 @@
+What is the output of the following code?
+ #include<iostream.h> 
+void main() 
+{  
+int a = 20; 
+int &n = a; 
+n=a++; 
+a=n++;
+cout<<a <<”,”<<n<<endl; 
+}
+
+ANSWER:
+
+The output of the second code is 21, 20
